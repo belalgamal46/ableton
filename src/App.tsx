@@ -8,12 +8,12 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="flex">
         <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+          <img src={viteLogo} className="logo w-44 h-44" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <img src={reactLogo} className="logo react w-44 h-44" alt="React logo" />
         </a>
       </div>
       <h1>Vite + React</h1>
